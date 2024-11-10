@@ -1,0 +1,81 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.6;
+    font-family: "Sour Gummy", sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.container{
+    width: 700px;
+    max-width: 80%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    padding: 50px 70px;
+    box-shadow: 10px 10px 20px 0 #000000ab;
+}
+.emoji{
+    font-size: 50px;
+}
+.joke{
+    margin-top: 10px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.button{
+    margin-top: 30px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
